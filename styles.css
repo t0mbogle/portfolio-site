@@ -7,21 +7,63 @@
 body {
     margin: 0;
 }
-
+#box {
+    display: flex;
+    align-items: center;
+    border: solid 2px #8D9D90;
+    border-radius: 10px;
+    box-shadow: 3px 6px #243119;
+    margin: 15px 10px;
+    padding: 5px;
+}
 
 /* nav bar */
-ul {
+nav > ul {
     list-style: none;
     display: flex;
     padding: 0;
     margin: 0;
 }
-li {
+nav li {
     border: solid 1px #243119;
     text-align: center;
     width: 25%;
-    padding: 5px 15px;
+    padding: 10px 0px;
 }
 a {
     text-decoration: none;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 26px;
+    font-style: italic;
+    margin: 15px;
+}
+
+/* index.html div container */
+.bitmoji {
+    width: 150px;
+    height: 150px;
+}
+p {
+    color: #8D9D90;
+    margin: 5px;
+}
+
+
+/* projects section styling */
+.horizontal-wrapper {
+    flex-direction: column;
+}
+
+.vertical-image {
+    height: 300px;
+}
+.horizontal-image {
+    width: 300px;
+    height: 100%;
+}
+.project-details {
+    padding: 5px;
 }
