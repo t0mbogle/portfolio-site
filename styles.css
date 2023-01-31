@@ -16,12 +16,14 @@ body {
     margin: 15px 10px;
     padding: 5px;
 }
+ul {
+    list-style: none;
+    padding: 0;
+}
 
 /* nav bar */
 nav > ul {
-    list-style: none;
     display: flex;
-    padding: 0;
     margin: 0;
 }
 nav li {
@@ -66,4 +68,27 @@ p {
 }
 .project-details {
     padding: 5px;
+}
+
+
+/* footer stylings */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+footer > ul {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    background-color: #243119;
+    padding: 14px 0px;
+}
+footer > ul > li > a { /* link */
+    color: aliceblue;
+    background-color: #243119;
+}
+footer > ul > li > a > i { /* icon */
+    background-color: #243119;
+    color: aliceblue;
 }
