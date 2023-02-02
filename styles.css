@@ -77,6 +77,11 @@ p {
     margin: 5px;
 }
 
+/* about me */
+.about-me {
+    flex-direction: column;
+}
+
 /* experience */
 .tech-stack {
     text-align: center;
@@ -162,3 +167,27 @@ footer > ul > li > a > i { /* icon */
 footer a {
     text-decoration: none;
 }
+
+/* Desktop Media Queries */
+@media only screen and (min-width: 769px) {
+    main {
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+    .horizontal-image {
+        width: 500px;
+    }
+    .vertical-image {
+        height: 500px;
+    }
+    .horizontal-wrapper {
+        flex-direction: row;
+    }
+    #box {
+        padding: 15px;
+        font-size: 1.2em;
+    }
+    .project-details {
+        padding: 20px;
+    }
+  }
